@@ -73,8 +73,8 @@ body::before {
 }
 
 .photo img {
-    width: 70%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 470px;
     border-radius: 14px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }

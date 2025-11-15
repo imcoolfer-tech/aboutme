@@ -25,14 +25,13 @@ body::before {
     z-index: -1;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;   /* ubah layout jadi vertikal */
-    align-items: center;      /* biar foto dan text berada di tengah */
-    gap: 40px;                /* jarak antara foto & text */
-    max-width: 1000px;
-    margin: auto;
-    min-height: 100vh;
+.container { 
+    display: flex; 
+    gap: 40px; 
+    align-items: center; 
+    max-width: 1000px; 
+    margin: auto; 
+    min-height: 100vh; /* supaya background penuh */
 }
 
 .text-section {

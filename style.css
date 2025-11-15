@@ -27,11 +27,12 @@ body::before {
 
 .container {
     display: flex;
-    gap: 40px;
-    align-items: center;
+    flex-direction: column;   /* ubah layout jadi vertikal */
+    align-items: center;      /* biar foto dan text berada di tengah */
+    gap: 40px;                /* jarak antara foto & text */
     max-width: 1000px;
     margin: auto;
-    min-height: 100vh; /* supaya background penuh */
+    min-height: 100vh;
 }
 
 .text-section {
